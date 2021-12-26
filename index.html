@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+	<title>Apple Store</title>
+</head>
+<body>
+<div class="iphonePlace">
+		<div id='iphoneDiv'>
+		</div>
+	</div>
+<div class="contacts"> <a href='https://www.apple.com/contact/' target='_blank' title='Contacting Apple'>Contacting Apple</a></div>
+<script src="https://unpkg.com/react@15/dist/react.js"></script> 
+<script src="https://unpkg.com/react-dom@15/dist/react-dom.js"></script> 
+<link rel='stylesheet' href='ishop.css'>
+<script src="ishop.js"></script>
+
+<script>
+	var nameIshop ='Apple Store';
+	var shopArr=[ 
+	{	code: 1,
+		namePhone: 'Iphone 13 Pro',
+		imgPhone: 'https://content2.onliner.by/catalog/device/header/c66db6b4c5cce1915eadd8bb59f5c527.jpeg',
+		pricePhone: '$999',
+		stockBalances: '1',	},
+	{	code: 2,
+		namePhone: 'Iphone 13',
+		imgPhone: 'https://content2.onliner.by/catalog/device/header/b9fefc8c8f96dbc21492792f3a1a502d.jpeg',
+		pricePhone: '$699',
+		stockBalances: '10',},
+	{	code: 3,
+		namePhone: 'Iphone 12 Pro',
+		imgPhone: 'https://content2.onliner.by/catalog/device/header/fb3d647d2b03fb2c023cbbbc2d04d7ee.jpeg',
+		pricePhone: '$649',
+		stockBalances: '10',},
+	{	code: 4,
+		namePhone: 'Iphone 12',
+		imgPhone: 'https://content2.onliner.by/catalog/device/header/bf14a99b6b00fa25711a3e8e7a87d23a.jpeg',
+		pricePhone: '$599',
+		stockBalances: '150',},
+	{	code: 5,
+		namePhone: 'Iphone 11 Pro',
+		imgPhone: 'https://content2.onliner.by/catalog/device/header/88887a90029b3ba6d684e36d066164ad.jpeg',
+		pricePhone: '$549',
+		stockBalances: '100',},
+	{	code: 6,
+		namePhone: 'Iphone 11',
+		imgPhone: 'https://content2.onliner.by/catalog/device/header/e2189f90f9088975c553ec33431fc186.jpeg',
+		pricePhone: '$499',
+		stockBalances: '100',},
+	];
+	ReactDOM.render(
+		React.createElement(ishop,{nameIshop: nameIshop, phones: shopArr}), 
+		document.getElementById('iphoneDiv') 
+	);
+</script>
+</body>
+</html>

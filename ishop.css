@@ -1,0 +1,91 @@
+html {
+	background: url(https://krot.info/uploads/posts/2021-02/1613687770_38-p-fon-soti-v-abstraktsii-42.jpg) no-repeat;
+	-moz-background-size: 100%; 
+	-webkit-background-size: 100%;
+	-o-background-size: 100%;
+	background-size: 100%;
+	color: #5D5C61;
+	font-family: 'PT Sans Caption', sans-serif;
+	font-size: 5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 100%;
+}
+a {
+	text-decoration: none;
+	color: #5D5C61;
+	font-family: 'PT Sans Caption', sans-serif;
+}
+.iphonePlace {
+	background: rgba( 255, 255, 255, 0.8);
+	height: 85vh;
+	margin: 2vh 0;
+	font-size: 3vh;
+}
+.contacts {
+	display: flex;
+	flex-direction: column;
+	align-content: stretch;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: #fff;
+	opacity: 0.8;
+	height: 8vh;
+}
+.phones {
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2vh 0;
+}
+#imgPhone > img {
+	width: 16vh;
+	height: auto;
+}
+#stockBalances {
+	font-size: 2vh;
+}
+#iphoneDiv {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: space-evenly;
+	margin: 2vh 0;
+	flex-wrap: wrap;
+}
+.nameIshop{
+	display: flex;
+	flex-direction: column;
+	align-content: stretch;
+	justify-content: space-evenly;
+	align-items: center;
+	opacity: 0.8;
+	height: 8vh;
+	font-size: 5vh;
+}
+.phonesCode{
+	display: flex;
+	flex-direction: row;
+	align-content: stretch;
+	justify-content: space-between;
+	align-items: stretch;
+	opacity: 0.8;
+	height: 75vh;
+	flex-wrap: wrap;
+}
+.imgPhone > img {
+	width: 16vh;
+	height: auto;
+}
+.stockBalances {
+	font-size: 2vh;
+}
+.ishop{
+	width: 100%;
+	height: auto;
+}
